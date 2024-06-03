@@ -35,5 +35,5 @@ Contributions to this repository are welcome! If you have a new code challenge t
 If you have any feedback, suggestions, or questions regarding the code challenges or this repository, feel free to open an issue or reach out to the maintainers.
 
 ## Challenges
-- [Find the odd integar](find_the_odd_int/README.md)
+- [Find the odd integer](find_the_odd_int/README.md)
 
