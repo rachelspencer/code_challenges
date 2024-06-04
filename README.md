@@ -8,32 +8,32 @@ In this repository, you'll find a collection of code challenges covering differe
 
 Feel free to explore the challenges, attempt them, and submit your solutions. 
 
-## Getting Started
+## Clone this repo
 
-To get started with the code challenges:
+You can clone this repo if you would like to practice on your own and build a collection of challenges you've conquered! 
+
+To get started:
 
 1. Clone this repository to your local machine: `git clone <repository_url>` and run `npm i`.
 
 2. Navigate to the directory: `cd code_challenges`.
 
-3. Choose a challenge from the list and open its corresponding directory.
+3. When you're in this directory, in your terminal run `code .`. If Visual Studios is installed on your computer, this file will be opened up in a new window.
 
-4. Read the challenge description and requirements carefully.
+4. Each code challenge has its own directory, containing a JS file for the code challenge, a READEME doc and a jest test file. The README file contains the instructions for the challenge and also a breakdown of my solutions approach.
 
-5. Implement your solution in the programming language of your choice. Run `nodemon <file_name>` to run your file locally in the terminal.>
+5. Implement your solution. Run `nodemon <file_name>` to run your file locally in the terminal to test as you code. Remember to navigate to the directory where the file is located in your terminal before running `nodemon <file_name>`.
 
-6. Test your solution and ensure it works correctly.
+6. If you implement a new solution, re-use the function name, this way when you're ready to really put your solution to test you can use the jest tests already written. You can run this by typing `npm test` in the terminal.
 
 7. Optionally, you can submit your solution by creating a pull request.
 
 ## Contributing
 
-Contributions to this repository are welcome! If you have a new code challenge to add or you want to improve existing ones, feel free to open a pull request. Please ensure that your contributions adhere to the guidelines mentioned above.
+Contributions to this repository are welcome! If you have a new code challenge to add or you want to improve existing ones, feel free to open a pull request.
 
-## Feedback
 
-If you have any feedback, suggestions, or questions regarding the code challenges or this repository, feel free to open an issue or reach out to the maintainers.
-
-## Challenges
+## Challenges in this repo
 - [Find the odd integer](find_the_odd_int/README.md)
 
+Happy coding!
