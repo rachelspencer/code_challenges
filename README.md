@@ -12,7 +12,7 @@ Feel free to explore the challenges, attempt them, and submit your solutions.
 
 To get started with the code challenges:
 
-1. Clone this repository to your local machine: `git clone <repository_url>`.
+1. Clone this repository to your local machine: `git clone <repository_url>` and run `npm i`.
 
 2. Navigate to the directory: `cd code_challenges`.
 
@@ -20,7 +20,7 @@ To get started with the code challenges:
 
 4. Read the challenge description and requirements carefully.
 
-5. Implement your solution in the programming language of your choice.
+5. Implement your solution in the programming language of your choice. Run `nodemon <file_name>` to run your file locally in the terminal.>
 
 6. Test your solution and ensure it works correctly.
 
