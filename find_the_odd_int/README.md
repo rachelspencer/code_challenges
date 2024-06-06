@@ -30,7 +30,9 @@ Once the array was organized in an object, I could then use a for...in loop to i
 // Find the key whos value is an odd value
 // Return that key
 
-`const findOddInt = (arr) => {
+```
+
+const findOddInt = (arr) => {
     const countMap = {} ;
     arr.forEach(num => {
         if (countMap[num]) {
@@ -45,7 +47,9 @@ Once the array was organized in an object, I could then use a for...in loop to i
             return parseInt(num); 
         }
     }
-};`
+};
+
+```
 
 Refactor:
 In this refactor I used the logical OR operator (||). In JavaScript, the || operator returns the first truthy value it encounters or the last value if none are truthy. Therefore, if countMap[num] is undefined (which is falsy), it returns 0 because undefined is falsy. If countMap[num] already has a value (e.g., 1, 2, etc.), it returns that value because it is truthy.
@@ -54,7 +58,9 @@ So, if countMap[num] is undefined, it will use 0. Essentially, it's saying, "If 
 
 But if countMap[num] was is defined, for example, 2, it becomes 2 + 1.
 
-`const findOddInt = (arr) => {
+```
+
+const findOddInt = (arr) => {
     const countMap = {} ;
     arr.forEach(num => {
         countMap[num] = (countMap[num] || 0) + 1;
@@ -65,5 +71,7 @@ But if countMap[num] was is defined, for example, 2, it becomes 2 + 1.
             return parseInt(num); 
         }
     }
-};`
+};
+
+```
 
