@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717689927857" clover="3.2.0">
-  <project timestamp="1717689927857" name="All files">
-    <metrics statements="15" coveredstatements="15" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="24" coveredelements="24" complexity="0" loc="15" ncloc="15" packages="2" files="2" classes="2"/>
+<coverage generated="1717690438051" clover="3.2.0">
+  <project timestamp="1717690438051" name="All files">
+    <metrics statements="12" coveredstatements="12" conditionals="6" coveredconditionals="6" methods="3" coveredmethods="3" elements="21" coveredelements="21" complexity="0" loc="12" ncloc="12" packages="2" files="2" classes="2"/>
     <package name="find_the_odd_int">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="find_the_odd_int.js" path="/Users/rachelspencer/Documents/code_challenges/find_the_odd_int/find_the_odd_int.js">
@@ -19,14 +19,11 @@
       </file>
     </package>
     <package name="return_negative">
-      <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
       <file name="return_negative.js" path="/Users/rachelspencer/Documents/code_challenges/return_negative/return_negative.js">
-        <metrics statements="5" coveredstatements="5" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
-        <line num="2" count="4" type="cond" truecount="2" falsecount="0"/>
-        <line num="3" count="3" type="stmt"/>
-        <line num="5" count="1" type="stmt"/>
-        <line num="8" count="1" type="stmt"/>
-        <line num="10" count="1" type="stmt"/>
+        <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+        <line num="9" count="3" type="cond" truecount="2" falsecount="0"/>
+        <line num="12" count="1" type="stmt"/>
       </file>
     </package>
   </project>
