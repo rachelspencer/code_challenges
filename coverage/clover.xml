@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1717516972867" clover="3.2.0">
-  <project timestamp="1717516972867" name="All files">
+<coverage generated="1717549142151" clover="3.2.0">
+  <project timestamp="1717549142152" name="All files">
     <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2" elements="16" coveredelements="16" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="find_the_odd_int.js" path="/Users/rachelspencer/Documents/code_challenges/find_the_odd_int/find_the_odd_int.js">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
@@ -13,7 +13,7 @@
       <line num="33" count="5" type="stmt"/>
       <line num="34" count="9" type="cond" truecount="2" falsecount="0"/>
       <line num="35" count="5" type="stmt"/>
-      <line num="40" count="1" type="stmt"/>
+      <line num="42" count="1" type="stmt"/>
     </file>
   </project>
 </coverage>
