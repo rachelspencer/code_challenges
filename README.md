@@ -14,19 +14,19 @@ You can clone this repo if you would like to practice on your own and build a co
 
 To get started:
 
-1. Clone this repository to your local machine: `git clone <repository_url>` and run `npm i`.
+1. Clone this repository to your local machine: `git clone <repository_url>`.
 
-2. Navigate to the directory: `cd code_challenges`.
+2. Navigate to the directory: `cd code_challenges`and run `npm i`.
 
 3. When you're in this directory, in your terminal run `code .`. If Visual Studios is installed on your computer, this file will be opened up in a new window.
 
 4. Each code challenge has its own directory, containing a JS file for the code challenge, a READEME doc and a jest test file. The README file contains the instructions for the challenge and also a breakdown of my solutions approach.
 
-5. Implement your solution. Run `nodemon <file_name>` to run your file locally in the terminal to test as you code. Remember to navigate to the directory where the file is located in your terminal before running `nodemon <file_name>`.
+5. Implement your solution! Run `nodemon <file_name>` to run your file locally in the terminal to test you code in the console as you go. Remember to navigate to the directory where the file is located in your terminal before running `nodemon <file_name>`.
 
-6. If you implement a new solution, re-use the function name, this way when you're ready to really put your solution to test you can use the jest tests already written. You can run this by typing `npm test` in the terminal.
+7. If you implement a new solution, re-use the function name, this way when you're ready to really put your solution to test, you can use the jest tests already written. You can run this by typing `npm test` in the terminal. I have already set up a script for this!
 
-7. Optionally, you can submit your solution by creating a pull request.
+8. Optionally, you can submit your solution by creating a pull request.
 
 ## Contributing
 
