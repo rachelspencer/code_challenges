@@ -6,3 +6,5 @@ function makeNegative(num) {
   };
 
 console.log(makeNegative(0));
+
+module.exports = makeNegative
