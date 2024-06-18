@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1718726173244" clover="3.2.0">
-  <project timestamp="1718726173244" name="All files">
-    <metrics statements="25" coveredstatements="25" conditionals="10" coveredconditionals="10" methods="4" coveredmethods="4" elements="39" coveredelements="39" complexity="0" loc="25" ncloc="25" packages="3" files="3" classes="3"/>
+<coverage generated="1718737162515" clover="3.2.0">
+  <project timestamp="1718737162515" name="All files">
+    <metrics statements="36" coveredstatements="36" conditionals="16" coveredconditionals="16" methods="5" coveredmethods="5" elements="57" coveredelements="57" complexity="0" loc="36" ncloc="36" packages="4" files="4" classes="4"/>
     <package name="find_the_odd_int">
       <metrics statements="10" coveredstatements="10" conditionals="4" coveredconditionals="4" methods="2" coveredmethods="2"/>
       <file name="find_the_odd_int.js" path="/Users/rachelspencer/Documents/code_challenges/find_the_odd_int/find_the_odd_int.js">
@@ -43,6 +43,23 @@
         <metrics statements="2" coveredstatements="2" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
         <line num="12" count="3" type="cond" truecount="2" falsecount="0"/>
         <line num="14" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="valid_parentheses">
+      <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+      <file name="valid_parentheses.js" path="/Users/rachelspencer/Documents/code_challenges/valid_parentheses/valid_parentheses.js">
+        <metrics statements="11" coveredstatements="11" conditionals="6" coveredconditionals="6" methods="1" coveredmethods="1"/>
+        <line num="24" count="1" type="stmt"/>
+        <line num="26" count="3" type="stmt"/>
+        <line num="28" count="3" type="stmt"/>
+        <line num="34" count="3" type="stmt"/>
+        <line num="35" count="10" type="cond" truecount="2" falsecount="0"/>
+        <line num="36" count="5" type="cond" truecount="4" falsecount="0"/>
+        <line num="37" count="4" type="stmt"/>
+        <line num="39" count="1" type="stmt"/>
+        <line num="42" count="5" type="stmt"/>
+        <line num="45" count="2" type="stmt"/>
+        <line num="48" count="1" type="stmt"/>
       </file>
     </package>
   </project>

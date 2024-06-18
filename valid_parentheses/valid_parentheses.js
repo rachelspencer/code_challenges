@@ -33,7 +33,7 @@ const isValidParentheses = function(s) {
 
     for (let char of s){
         if (parenthesesObj[char]){
-            if (stack[0] && stack[stack.length -1] == parenthesesObj[char]){
+            if (stack.length > 0 && stack[stack.length -1] == parenthesesObj[char]){
                 stack.pop()
             } else {
                 return false
