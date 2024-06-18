@@ -29,4 +29,7 @@ const longestCommonPrefix = function(strs) {
         }
         return result.join('');
     }
+    return "";
 };
+
+module.exports = longestCommonPrefix

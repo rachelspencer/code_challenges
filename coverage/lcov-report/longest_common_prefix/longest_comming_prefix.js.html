@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for find_the_odd_int/find_the_odd_int.js</title>
+    <title>Code coverage report for longest_common_prefix/longest_comming_prefix.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,13 +19,13 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">find_the_odd_int</a> find_the_odd_int.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">longest_common_prefix</a> longest_comming_prefix.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>10/10</span>
+                <span class='fraction'>14/14</span>
             </div>
         
             
@@ -39,14 +39,14 @@
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>2/2</span>
+                <span class='fraction'>1/1</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Lines</span>
-                <span class='fraction'>10/10</span>
+                <span class='fraction'>13/13</span>
             </div>
         
             
@@ -97,21 +97,7 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a>
-<a name='L36'></a><a href='#L36'>36</a>
-<a name='L37'></a><a href='#L37'>37</a>
-<a name='L38'></a><a href='#L38'>38</a>
-<a name='L39'></a><a href='#L39'>39</a>
-<a name='L40'></a><a href='#L40'>40</a>
-<a name='L41'></a><a href='#L41'>41</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -124,66 +110,62 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
-<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">23x</span>
-<span class="cline-any cline-yes">13x</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">10x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">7x</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-yes">9x</span>
-<span class="cline-any cline-yes">5x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">// DESCRIPTION:
-// Given an array of integers, find the one that appears an odd number of times.
+<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">// Write a function to find the longest common prefix string amongst an array of strings.
+// If there is no common prefix, return an empty string "".
 &nbsp;
-// There will always be only one integer that appears an odd number of times.
+// Example 1:
+// Input: strs = ["flower","flow","flight"]
+// Output: "fl"
 &nbsp;
-// Examples
-// [7] should return 7, because it occurs 1 time (which is odd).
-// [0] should return 0, because it occurs 1 time (which is odd).
-// [1,1,2] should return 2, because it occurs 1 time (which is odd).
-// [0,1,0,1,0] should return 0, because it occurs 3 times (which is odd).
-// [1,2,2,3,3,3,4,3,3,3,2,2,1] should return 4, because it appears 1 time (which is odd).
+//Example 2:
+// Input: strs = ["dog","racecar","car"]
+// Output: ""
+// Explanation: There is no common prefix among the input strings.
 &nbsp;
-// Pseudo
-// For each item in the array, create a key value pair in an object
-// Each iteration of a number, check if that value already exists in the object as a key
-// If its undefiened, add the key and set its initial value to 1
-// If defined, add 1 to its value
-// Find the key whos value is an odd value
-// Return that key
+const longestCommonPrefix = function(strs) {
+    
+    strs.sort();
 &nbsp;
-const findOddInt = (arr) =&gt; {
-    const countMap = {} ;
+    const result = [];
 &nbsp;
-    arr.forEach(num =&gt; {
-        // countMap[num] = (countMap[num] || 0) + 1;
-        if (countMap[num]) {
-            countMap[num] = countMap[num] + 1;
-        } else {
-            countMap[num] = 1;
+    if (strs.length &gt; 0){
+        const firstWord = strs[0].split('');
+        const lastWord = strs[strs.length -1].split('');
+&nbsp;
+        for (let i=0; i &lt; firstWord.length; i++){
+            if (firstWord[i] !== lastWord[i]){
+                break
+            } else {
+                result.push(firstWord[i])
+            }
         }
-    });
-&nbsp;
-    for (const num in countMap) {
-        if (countMap[num] % 2 === 1) {
-            return parseInt(num); 
-        }
+        return result.join('');
     }
+    return "";
 };
 &nbsp;
-&nbsp;
-module.exports = findOddInt</pre></td></tr></table></pre>
+module.exports = longestCommonPrefix</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
