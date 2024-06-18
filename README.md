@@ -36,5 +36,6 @@ Contributions to this repository are welcome! If you have a new code challenge t
 ## Challenges in this repo
 - [Find the odd integer](find_the_odd_int/README.md)
 - [Return Negative](return_negative/README.md)
+- [Longest common prefix](longest_common_prefix/README.md)
 
 Happy coding!
