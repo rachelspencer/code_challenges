@@ -27,19 +27,19 @@ const mergeTwoLists = function(list1, list2) {
         return [];
 
     } else if  (list1.length < 1) {
-        return [...list2].sort();
+        return [...list2].sort((a, b) => a - b);;
 
     } else if (list2.length < 1) {
-        return [...list1].sort();
+        return [...list1].sort((a, b) => a - b);;
 
     } else {
         const mergedArr = [...list2]
         mergedArr.push(...list1)
        
-        return mergedArr.sort();
+        return mergedArr.sort((a, b) => a - b);;
     }
 };
 
-console.log(mergeTwoLists(list1, list2))
+// console.log(mergeTwoLists(list1, list2))
 
 module.exports = mergeTwoLists

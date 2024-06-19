@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>Code coverage report for longest_common_prefix/longest_comming_prefix.js</title>
+    <title>Code coverage report for merge_two_sorted_lists/mergeTwoSortedLists.js</title>
     <meta charset="utf-8" />
     <link rel="stylesheet" href="../prettify.css" />
     <link rel="stylesheet" href="../base.css" />
@@ -19,27 +19,27 @@
 <body>
 <div class='wrapper'>
     <div class='pad1'>
-        <h1><a href="../index.html">All files</a> / <a href="index.html">longest_common_prefix</a> longest_comming_prefix.js</h1>
+        <h1><a href="../index.html">All files</a> / <a href="index.html">merge_two_sorted_lists</a> mergeTwoSortedLists.js</h1>
         <div class='clearfix'>
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Statements</span>
-                <span class='fraction'>14/14</span>
+                <span class='fraction'>16/16</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Branches</span>
-                <span class='fraction'>4/4</span>
+                <span class='fraction'>8/8</span>
             </div>
         
             
             <div class='fl pad1y space-right2'>
                 <span class="strong">100% </span>
                 <span class="quiet">Functions</span>
-                <span class='fraction'>1/1</span>
+                <span class='fraction'>4/4</span>
             </div>
         
             
@@ -97,7 +97,24 @@
 <a name='L32'></a><a href='#L32'>32</a>
 <a name='L33'></a><a href='#L33'>33</a>
 <a name='L34'></a><a href='#L34'>34</a>
-<a name='L35'></a><a href='#L35'>35</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<a name='L35'></a><a href='#L35'>35</a>
+<a name='L36'></a><a href='#L36'>36</a>
+<a name='L37'></a><a href='#L37'>37</a>
+<a name='L38'></a><a href='#L38'>38</a>
+<a name='L39'></a><a href='#L39'>39</a>
+<a name='L40'></a><a href='#L40'>40</a>
+<a name='L41'></a><a href='#L41'>41</a>
+<a name='L42'></a><a href='#L42'>42</a>
+<a name='L43'></a><a href='#L43'>43</a>
+<a name='L44'></a><a href='#L44'>44</a>
+<a name='L45'></a><a href='#L45'>45</a></td><td class="line-coverage quiet"><span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
@@ -110,62 +127,75 @@
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">4x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-yes">3x</span>
+<span class="cline-any cline-yes">8x</span>
+<span class="cline-any cline-yes">1x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
 <span class="cline-any cline-yes">7x</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-yes">4x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">3x</span>
-<span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span>
+<span class="cline-any cline-yes">4x</span>
+<span class="cline-any cline-yes">5x</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
 <span class="cline-any cline-neutral">&nbsp;</span>
-<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">// Write a function to find the longest common prefix string amongst an array of strings.
-// If there is no common prefix, return an empty string "".
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-yes">2x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">25x</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-neutral">&nbsp;</span>
+<span class="cline-any cline-yes">1x</span></td><td class="text"><pre class="prettyprint lang-js">// You are given the heads of two sorted linked lists `list1` and `list2`.
+&nbsp;
+// Merge the two lists into one sorted list. The list should be made by splicing together the nodes of the first two lists.
+&nbsp;
+// Return the head of the merged linked list.
+&nbsp;
 &nbsp;
 // Example 1:
-// Input: strs = ["flower","flow","flight"]
-// Output: "fl"
+// Input: list1 = [1,2,4], list2 = [1,3,4]
+// Output: [1,1,2,3,4,4]
 &nbsp;
-//Example 2:
-// Input: strs = ["dog","racecar","car"]
-// Output: ""
-// Explanation: There is no common prefix among the input strings.
+// Example 2: 
+// Input: list1 = [], list2 = []
+// Output: []
 &nbsp;
-const longestCommonPrefix = function(strs) {
-    
-    strs.sort();
+// Example 3:
+// Input: list1 = [], list2 = [0]
+// Output: [0]
 &nbsp;
-    const result = [];
+const list1 = [1,3,6,4,8]
+const list2 = [5,6,2]
 &nbsp;
-    if (strs.length &gt; 0){
-        const firstWord = strs[0].split('');
-        const lastWord = strs[strs.length -1].split('');
 &nbsp;
-        for (let i=0; i &lt; firstWord.length; i++){
-            if (firstWord[i] !== lastWord[i]){
-                break
-            } else {
-                result.push(firstWord[i])
-            }
-        }
-        return result.join('');
+const mergeTwoLists = function(list1, list2) {
+&nbsp;
+    if (list1.length &lt; 1 &amp;&amp; list2.length &lt; 1) {
+        return [];
+&nbsp;
+    } else if  (list1.length &lt; 1) {
+        return [...list2].sort((a, b) =&gt; a - b);;
+&nbsp;
+    } else if (list2.length &lt; 1) {
+        return [...list1].sort((a, b) =&gt; a - b);;
+&nbsp;
+    } else {
+        const mergedArr = [...list2]
+        mergedArr.push(...list1)
+       
+        return mergedArr.sort((a, b) =&gt; a - b);;
     }
-    return "";
 };
 &nbsp;
-module.exports = longestCommonPrefix</pre></td></tr></table></pre>
+// console.log(mergeTwoLists(list1, list2))
+&nbsp;
+module.exports = mergeTwoLists</pre></td></tr></table></pre>
 
                 <div class='push'></div><!-- for sticky footer -->
             </div><!-- /wrapper -->
