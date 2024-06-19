@@ -38,5 +38,6 @@ Contributions to this repository are welcome! If you have a new code challenge t
 - [Return Negative](return_negative/README.md)
 - [Longest common prefix](longest_common_prefix/README.md)
 - [Closing Parentheses](valid_parentheses/README.md)
+- [Merge Two Sorted Lists](merge_two_sorted_lists/README.md)
 
 Happy coding!
