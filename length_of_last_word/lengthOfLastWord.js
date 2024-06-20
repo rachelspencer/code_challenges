@@ -17,8 +17,15 @@
 // Output: 6
 // Explanation: The last word is "joyboy" with length 6.
 
+const s = "   fly me   to   the moon  "
+
 const lengthOfLastWord = function(s) {
+    const arrSentence = s.trim().split(' ');
+   
+    return arrSentence[arrSentence.length -1].length
     
 };
+
+console.log(lengthOfLastWord(s));
 
 module.exports = lengthOfLastWord
