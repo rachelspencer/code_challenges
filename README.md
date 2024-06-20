@@ -39,5 +39,6 @@ Contributions to this repository are welcome! If you have a new code challenge t
 - [Longest common prefix](longest_common_prefix/README.md)
 - [Closing Parentheses](valid_parentheses/README.md)
 - [Merge Two Sorted Lists](merge_two_sorted_lists/README.md)
+- [Length of Last Word](length_of_last_word/README.md)
 
 Happy coding!
