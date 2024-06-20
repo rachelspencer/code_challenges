@@ -17,13 +17,33 @@
 // Output: 6
 // Explanation: The last word is "joyboy" with length 6.
 
+
+// First solution
+// const s = "   fly me   to   the moon  "
+
+// const lengthOfLastWord = function(s) {
+//     const arrSentence = s.trim().split(' ');
+   
+//     return arrSentence[arrSentence.length -1].length
+    
+// };
+
 const s = "   fly me   to   the moon  "
 
 const lengthOfLastWord = function(s) {
-    const arrSentence = s.trim().split(' ');
-   
-    return arrSentence[arrSentence.length -1].length
-    
+    let length = 0;
+    let end = s.length -1;
+
+    while (end >= 0 && s[end] === " ") {
+        end --;
+    }
+
+    while (end >= 0 && s[end] !== " ") {
+        length++;
+        end--;
+    }
+
+    return length;
 };
 
 console.log(lengthOfLastWord(s));
