@@ -23,9 +23,11 @@ Explanation: The last word is "joyboy" with length 6.
 
 ## My solution explained
 
+First Solution
+
 My first solution trimmed the white space off the end of the string and then coverted the string into an array. The I accessed the last word in the array and returned its length.
 
-First Solution
+
 ```
 
 const s = "   fly me   to   the moon  "
