@@ -7,3 +7,30 @@
 The returned format must be correct in order to complete this challenge.
 
 Don't forget the space after the closing parentheses!
+
+## My Solution explained
+
+The first solution uses splice, but splice mutates the original array and shifts the elements with each insertion. This is more expensive than alternatives that avoid modifying the array in place. 
+
+```
+
+Solution 1
+function createPhoneNumber(numbers){
+   numbers.splice(0, 0, '(')
+   numbers.splice(4, 0, ') ')
+   numbers.splice(8, 0, '-')
+   return numbers.join('');
+  
+ };
+
+ ```
+ So I considered using template literal to reformat the array. 
+ ```
+
+ Solution 2 
+function createPhoneNumber(numbers){
+    return `(${numbers.slice(0,3).join('')}) ${numbers.slice(3, 6).join('')}-${numbers.slice(6).join('')}`
+};
+
+```
+
